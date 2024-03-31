@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="adm.css">
+<title>Cadastrar Usuario</title>
+<script src="scripts/valiadar.js"> </script>
+</head>
+<body>
+
+
+	<div class="container">
+		<section class="header">
+			<h2>Novo usuario</h2>
+		</section>
+
+	<form  name="frmCadUser" action="insert" class="form">
+			<div class="form-content">
+				<label for="usuario">Login do usuário</label> <input type="text"
+					name="login" placeholder="Digite seu login" required/>
+			</div>
+
+			<div class="form-content">
+				<label for="password">Senha</label> <input type="password"
+					name="senha" placeholder="Digite sua senha" required/>
+
+			</div>
+			
+			<div class="form-content">
+				<label for="nome"></label>Nome <input type="text" name="nome"
+					placeholder="Digite o seu nome" required/>
+			</div>
+			
+			<div class="form-content">
+				<label for="nome">Ativa conta </label>
+				<select name="situacao">
+					<option>sim</option>
+					<option>nao</option>
+				</select>
+				
+			</div>
+			
+			<div class="form-content">
+				<label for="nome"></label>Data nascimento <input type="date" name="data_nascimento"
+					placeholder="Digite sua dada de nascimento" required/>
+			</div>
+
+			<button type="submit">Cadastrar</button>
+
+		</form>
+
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.btn1{
+	text-decoration: nome;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	color:#fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+}
+.botao{
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+p{
+  text-align: center;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  color: black;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
